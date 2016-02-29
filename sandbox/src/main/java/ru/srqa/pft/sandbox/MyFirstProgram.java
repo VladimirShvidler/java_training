@@ -1,4 +1,4 @@
-package ru.srqa.pft.sandbox;
+/*package ru.srqa.pft.sandbox;
 
 public class MyFirstProgram {
 
@@ -24,3 +24,4 @@ public class MyFirstProgram {
 
 
 }
+*/
