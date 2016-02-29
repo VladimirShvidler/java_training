@@ -5,12 +5,11 @@ public class MyFirstProgram {
   public static void main(String[] args) {
     hello("world");
 
-    double l = 5;
-    System.out.println("Square's area with side " + l + " = " + area(l));
+    Square s = new Square(5);
+    System.out.println("Square's area with side " + s.l + " = " + s.area());
 
-    double a = 4;
-    double b = 6;
-    System.out.println("Rectangle's are with sides " + a + " and " + b + " = " + area(a, b));
+    Rectangle r= new Rectangle(4, 6);
+    System.out.println("Rectangle's are with sides " + r.a + " and " + r.b + " = " + r.area());
 
 
 
@@ -20,12 +19,8 @@ public class MyFirstProgram {
         System.out.println("Hello " + somebody + "!");
   }
 
-  public static double area(double len){
-    return len*len;
-  }
 
-  public static double area(double a, double b){
-    return a * b;
-  }
+
+
 
 }
